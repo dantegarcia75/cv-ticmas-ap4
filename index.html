@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Dante Garcia">
+    <meta name="description" content="Proyecto final - Cv">
+    <meta name="keywords" content="HTML, CSS, Javascript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- etiqueta title -->
+    <title>CV Miguel O. Villegas</title> 
+    <!-- para el icono -->
+    <link rel="icon" type="ico" href="imagenes/favicon.ico"> 
+    <!-- etiqueta que permite utilizar los estilos cSS-->
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+    <!-- etiqueta para fonts de google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@450&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- foto del CV, nombre, descarga PDF, whassapp, email, modo oscuro -->
+    <header id="header-js">       
+        <div class="foto-carnet">
+            <img src="/imagenes/Foto-CV_Miguel_Villegas.png" alt="foto de Miguel Omar Villegas del curriculum"/>
+        </div>
+       
+        <div class="info-per">
+            <p>Miguel Omar Villegas</p>
+
+            <a href="/imagenes/CV-miguel-villegas-600ppp.pdf" download>
+                <img src="/imagenes/icono-pdf.png" title= "toca para descargar el CV en pdf" width="30" height="30"/> 
+                CV en PDF
+            </a>
+            
+            <a href="https://wa.me/34670335771" target="_blank"> 
+                <img src="/imagenes/logo-wasap.png" title= "toca para contactarme por WhatsApp" width="30" height="30"/>
+                Cel: +34 670 335771
+            </a>
+            
+            <a href="mailto:miguel_tiamat@arnet.com.ar">
+                    <img src="/imagenes/pngegg7.png" title= "toca para contactarme por email" width="30" height="30">
+                <span>miguel_tiamat@arnet.com.ar</span>
+            </a>
+            
+            <input type="submit" id="boton" value="MODO OSCURO" title="toca para oscurecer" onclick="modoOscuroClaro()"/>
+           
+        <br>
+        </div>    
+    </header>
+
+    <!-- menu con enlaces ancla -->
+    <nav id="nav-js">
+        <a href="#experiencia" class="nav-enlace">EXPERIENCIA</a>
+        <a href="#habilidades" class="nav-enlace">HABILIDADES</a>
+        <a href="#formacion" class="nav-enlace">FORMACIÓN</a>      
+    </nav>
+
+    <!-- contenido de EXPERIENCIA, HABILIDADES, Y FORMACIÓN -->
+    <section id="sec-oscura">
+        <br>
+        <article id="experiencia">
+            <h2>EXPERIENCIA</h2>
+            <!-- lista desordenada-->
+            <ul>
+                <li>2017 - PRESENTE Frigorifico Calchaquí SA - S.M. de Tucumán. Remitos Electrónicos.</li>
+                <li>2016 - 2017 Tecno Chapes - Catalunia, España. En carácter administrativo.</li>
+                <li>2013 - 2015 Tiamat Computer - Palpala, Jujuy. Asesor de ventas y encargado de compras.</li>
+                <li>2009 - 2014 Chapes Solutions. En carácter administrativo y manejo de redes sociales.</li>
+                <li>2005 - 2008 Bar La Plaza - S.M. de Tucumán, Tucumán. En carácter administrativo.</li>
+                <li>2005 - 2007 Cyber-Café La Curva - S.M. de Tucumán, Tucumán. Encargado y administrador de la red.</li>
+                <li>2003 - 2006 Frigorífico La Puna SRL - Palpala, Jujuy. Encargado de balanza y romaneos. Lista de matanza y papeles oficiales.</li>
+                <li>2002 - 2003 Calzados Callejas - S.M. de Tucumán, Tucumán. En carácter de encargado y mantenimiento de maquinaria.</li>
+                <li>2001 - 2002 Pixie - S.M. de Tucumán, Tucumán. Diseñador gráfico y edición de video.</li>
+            </ul> 
+            <br>
+            <br>      
+        </article>
+        <br>
+        <br>
+        <article id="habilidades">
+            <h2>HABILIDADES</h2>
+            <!-- lista desordenada-->
+            <ul>
+                <li>Liquidación de hacienda.</li>
+                <li>Remitos Electrónicos.</li>
+                <li>Operaciones Bancarias en general.</li>
+                <li>Carga de datos en sistemas.</li>
+                <li>Manejo de base de datos.</li>
+                <li>Manejo de paquete Office (Word, Excel, etc).</li>
+                <li>Manejo de herramientas Google (Drive, Meeting, etc).</li>
+                <li>Manejo de redes sociales.</li>
+                <li>Instalación y actualización de software en general.</li>
+                <li>Instalación y mantenimientos de redes, configuración de wifi, etc.</li>
+                <li>Reparación y armado de PC. Más de 30 años manejando computadoras.</li>
+            </ul>
+            <br>
+            <br>
+        </article>
+        <br>
+        <br>
+        <article id="formacion">
+            <h2>FORMACIÓN</h2>
+            <!-- lista desordenada-->
+            <ul>
+                <li>E.N.E.T. Nro.5 / S.M. de Tucumán, Tucumán.
+                    | Técnico en Computación / FEB 1988 - DIC 1993</li>
+                <li>Inst Donato Grima / S.M. de Tucumán, Tucumán.
+                | Diseñador gráfico profesional / FEB 1994 - DIC 1994</li>
+                <li>Inst. Solaris / S.M. de Tucumán, Tucumán.
+                    | Excel Avanzado / JUN 1995 - NOV 1995</li>
+                <li>Inst. LOFT / S.M. de Tucumán, Tucumán.
+                    | Técnico Reparador de PC / MAR 2000 - DIC 2000
+                    </li>
+                <li>Universidad Técnologica Nacional / S.M. de Tucumán, Tucumán.
+                    | Ingeniería en Sistemas (incompleto) / MAR 1995 - OCT 1995</li>
+            </ul>
+            <br>
+            <br>
+        </article>
+        <br>
+        <br>
+    </section>
+
+    <!-- QR del CV, fecha del día con Javascript, información de contacto del autor de la página -->
+    <footer id="footer-js">
+        <div class="qr-mensaje">también podés contactarme por QR</div>
+        <div>
+            <img src="/imagenes/whassapp-qr.png" title= "escanea el cod QR para contactarme por WhatsApp" alt="imagen QR para contactar por whassapp"/>
+        </div>
+        <br>
+        <br>
+        <div id="txt-fecha" class="fecha-mensaje"></div> 
+        <div class="derechos-de-autor">
+            <span>Creada por <a href="mailto:dante.m.garcia.75@gmail.com" title="toca para contactar al creador de la página web">Dante Garcia</a> (2023) ©</span> 
+        </div>
+    </footer>
+  
+<script src="javascript.js"></script>
+</body>
+</html>
