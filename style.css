@@ -54,7 +54,7 @@ section {
     color:#ff0000;
 }
 
-/* ojo con lo que sigue, no se si es mejor aplicar a section a secas*/
+
 section h2, li {
     font-family: 'Montserrat', sans-serif;  
     /* color:#aaabca; 
@@ -178,7 +178,6 @@ margin:  1px 5px;
 }
 .nav-enlace {
     display: inline-block;
-    /* font-size: 15px; */
     color: white;
     padding: 10px 20px;
     text-decoration: none; 

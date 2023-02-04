@@ -46,8 +46,8 @@ function modoOscuroClaro(){
     } 
 }
 
-function fechaJs(){
+function fechaJs(){ //ahora incorpore <br> para salto de linea que era necesario
     var fechaActual= new Date().toLocaleDateString('es-us', { weekday:"long", year:"numeric", month:"short", day:"numeric"}); 
-    document.getElementById("txt-fecha").innerHTML="estás visitando la pág. el: " + fechaActual;   
+    document.getElementById("txt-fecha").innerHTML="estás visitando la pág. el: <br />" + fechaActual;   
 }
 fechaJs();    // creada la función por is la tengo que llamar en otra pag/lugar;   
