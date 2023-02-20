@@ -241,14 +241,14 @@ display:block;
     background-color: red; /* Fija un color de fondo */
     color: white; /* Color del texto */
     cursor: pointer; /* Agrega un puntero de mouse al pasar por el boton (hover) */
-    padding: 10px; /* Algo de padding */
+    padding: 8px 10px 5px; /* Algo de padding */
     border-radius: 50%; /* Redondeo de escquinas */
-    font-size: 18px; /* Aumento de tamaño de font */
+    font-size: 18px; /*Aumento de tamaño de font */
   }
   
   #myBtn:hover {
     background-color: #555; /* Agrega a gris oscuro de fondo al pasar (hover) */
-    color: yellow;
+   
   }
 
 @media (max-width:320px){
