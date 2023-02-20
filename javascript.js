@@ -48,6 +48,26 @@ function modoOscuroClaro(){
 
 function fechaJs(){ //ahora incorpore <br> para salto de linea que era necesario
     var fechaActual= new Date().toLocaleDateString('es-us', { weekday:"long", year:"numeric", month:"short", day:"numeric"}); 
-    document.getElementById("txt-fecha").innerHTML="estás visitando la pág. el: <br />" + fechaActual;   
+    document.getElementById("txt-fecha").innerHTML="estás visitando la página el: <br />" + fechaActual;   
 }
-fechaJs();    // creada la función por is la tengo que llamar en otra pag/lugar;   
+fechaJs();    // creada la función por si la tengo que llamar en varias pag/partes   
+
+// Get the button:
+let mybutton = document.getElementById("myBtn");
+
+// Aparece el boton cuando se baja scrolleando a 20px (o +) desde el principio de la página
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// Cuando se hace click en el boton, se scrollea hacia el principio de la página
+function topFunction() {
+  document.body.scrollTop = 0; // Para Safari (Apple)
+  document.documentElement.scrollTop = 0; // Para Chrome, Firefox, IE y Opera
+}
